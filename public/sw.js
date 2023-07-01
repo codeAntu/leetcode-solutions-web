@@ -1,6 +1,6 @@
 const cacheData = {
 	showCacheThenFetch: {
-		name: 'leetcode-solutions-web-show-cache-then-fetch-v27',
+		name: 'leetcode-solutions-web-show-cache-then-fetch-v1',
 		valid: 'leetcode-solutions-web-show-cache-then-fetch',
 	},
 	emojiCache: {
@@ -8,7 +8,7 @@ const cacheData = {
 		valid: 'emoji-cache',
 	},
 	fontCache: {
-		name: 'leetcode-solutions-web-font-cache-v3',
+		name: 'leetcode-solutions-web-font-cache-v1',
 		valid: 'leetcode-solutions-web-font-cache',
 	},
 	static: {
