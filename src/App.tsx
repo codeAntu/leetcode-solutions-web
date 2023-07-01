@@ -1,7 +1,16 @@
 import './scss/index.scss'
 
-const App = () => <div className="min-h-[100vh] dark:bg-dark dark:text-white flex justify-center items-center flex-col gap-5">
-  <p className='text-2xl md:text-3xl lg:text-4xl font-semibold'>Leetcode Solutions</p>
-  <p className='uppercase'>Coming Soon</p>
-</div>
-export default App
+import Home from './pages/Home'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import React from 'react'
+import Loading from './pages/loading/Loading'
+
+export default function App() {
+  return <Router basename='/leetcode-solutions-web'>
+    <React.Suspense fallback={<Loading />}>
+      <Routes >
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </React.Suspense>
+  </Router>
+}
