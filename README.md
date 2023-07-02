@@ -1,6 +1,16 @@
 # LeetCode Solutions Web
 
-![Banner](https://codeAbinash.github.io/leetcode-solutions-web/images/banner/banner.jpg)
+![Banner](https://codeabinash.github.io/leetcode-solutions-web/images/banner.jpg)
 
 
-## [Link](https://codeAbinash.github.io/leetcode-solutions-web/) to the web Application.
+### [Live Website](https://codeAbinash.github.io/leetcode-solutions-web/)
+
+
+### How to contribute
+```
+git clone https://github.com/codeAntu/leetcode-solutions-web.git   
+cd leetcode-solutions-web
+npm install
+npm run dev
+```
+> Now contribute to the project and make a pull request.
